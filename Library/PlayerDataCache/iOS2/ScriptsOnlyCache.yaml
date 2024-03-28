@@ -1,0 +1,2403 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - EasyMobile.Editor.EM_SettingsEditor
+    - EasyMobile.Editor.EM_SettingsWindow
+    - HutongGames.PlayMakerEditor.EditorStartupPrefs
+    - HutongGames.PlayMakerEditor.FsmEditorWindow
+    Assembly-CSharp.dll:
+    - BackButton
+    - CareerLevelSetup
+    - CareerMapManager
+    - DrawPathsInEditor
+    - EasyMobile.EM_Settings
+    - FixPositionOnAllResolutions
+    - HeartBeatAnimationEffect
+    - HouseController
+    - InitManager
+    - ItemMover
+    - MainMenuAdmob
+    - MenuBGMover
+    - MenuManager
+    - PathManager
+    - PauseManager
+    - globalGameController
+    - globalTouchManager
+    - textFx
+    GoogleMobileAds.Editor.dll:
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettings
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
+    PlayMaker.dll:
+    - PlayMakerFSM
+    - PlayMakerGUI
+    - PlayMakerGlobals
+    - PlayMakerPrefs
+    Unity.Recorder.Editor.dll:
+    - UnityEditor.Recorder.RecorderControllerSettings
+    - UnityEditor.Recorder.RecorderSettingsPrefsEditor
+    - UnityEditor.Recorder.RecorderWindow
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+  serializedClasses:
+    Assembly-CSharp:
+    - EasyMobile.AdColonySettings
+    - EasyMobile.AdId
+    - EasyMobile.AdMobSettings
+    - EasyMobile.AdMobSettings/AdMobTargetingSettings
+    - EasyMobile.AdSettings
+    - EasyMobile.AdSettings/DefaultAdNetworks
+    - EasyMobile.AndroidPermission
+    - EasyMobile.AppLovinSettings
+    - EasyMobile.AppTrackingSettings
+    - EasyMobile.AudienceNetworkSettings
+    - EasyMobile.ChartboostSettings
+    - EasyMobile.ConsentDialog
+    - EasyMobile.ConsentDialogComposerSettings
+    - EasyMobile.ContactsApiSettings
+    - EasyMobile.FairBidSettings
+    - EasyMobile.GameServicesSettings
+    - EasyMobile.IAPSettings
+    - EasyMobile.Internal.Dictionary_AdPlacement_AdId
+    - EasyMobile.Internal.StringStringSerializableDictionary
+    - EasyMobile.IronSourceSettings
+    - EasyMobile.IronSourceSettings/SegmentSettings
+    - EasyMobile.MediaApiSettings
+    - EasyMobile.NativeApisSettings
+    - EasyMobile.NotificationCategory
+    - EasyMobile.NotificationsSettings
+    - EasyMobile.PrivacySettings
+    - EasyMobile.RatingDialogContent
+    - EasyMobile.RatingRequestSettings
+    - EasyMobile.SharingSettings
+    - EasyMobile.TapjoySettings
+    - EasyMobile.UnityAdsSettings
+    - EasyMobile.VungleSettings
+    - EasyMobile.VungleSettings/VungleAdvancedSettings
+    - EasyMobile.VungleSettings/VungleAdvancedSettings/PrematureAdClosePopup
+    - EasyMobile.iOSInfoPlistItem
+    PlayMaker:
+    - HutongGames.PlayMaker.ActionData
+    - HutongGames.PlayMaker.Fsm
+    - HutongGames.PlayMaker.Fsm/EditorFlags
+    - HutongGames.PlayMaker.FsmArray
+    - HutongGames.PlayMaker.FsmBool
+    - HutongGames.PlayMaker.FsmEvent
+    - HutongGames.PlayMaker.FsmEventTarget
+    - HutongGames.PlayMaker.FsmFloat
+    - HutongGames.PlayMaker.FsmGameObject
+    - HutongGames.PlayMaker.FsmObject
+    - HutongGames.PlayMaker.FsmOwnerDefault
+    - HutongGames.PlayMaker.FsmState
+    - HutongGames.PlayMaker.FsmString
+    - HutongGames.PlayMaker.FsmTransition
+    - HutongGames.PlayMaker.FsmVar
+    - HutongGames.PlayMaker.FsmVariables
+    - HutongGames.PlayMaker.UiEvents
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.PersistentCallGroup
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/RealEstateTycoon-Gamekit/Scenes/CareerMap-c#.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 28182}
+    - Class: 114
+      Script: {instanceID: 28516}
+    - Class: 114
+      Script: {instanceID: 30268}
+    - Class: 114
+      Script: {instanceID: 30550}
+    - Class: 114
+      Script: {instanceID: 32750}
+    - Class: 114
+      Script: {instanceID: 32754}
+    - Class: 114
+      Script: {instanceID: 34068}
+    - Class: 114
+      Script: {instanceID: 34378}
+    - Class: 114
+      Script: {instanceID: 36838}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RealEstateTycoon-Gamekit/Scenes/Game-c#.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 28932}
+    - Class: 114
+      Script: {instanceID: 29730}
+    - Class: 114
+      Script: {instanceID: 30550}
+    - Class: 114
+      Script: {instanceID: 30712}
+    - Class: 114
+      Script: {instanceID: 31376}
+    - Class: 114
+      Script: {instanceID: 31944}
+    - Class: 114
+      Script: {instanceID: 32750}
+    - Class: 114
+      Script: {instanceID: 32754}
+    - Class: 114
+      Script: {instanceID: 33934}
+    - Class: 114
+      Script: {instanceID: 35928}
+    - Class: 114
+      Script: {instanceID: 37388}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RealEstateTycoon-Gamekit/Scenes/Init.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 28852}
+    - Class: 114
+      Script: {instanceID: 31984}
+    - Class: 114
+      Script: {instanceID: 32388}
+    - Class: 114
+      Script: {instanceID: 32704}
+    - Class: 114
+      Script: {instanceID: 33074}
+    - Class: 114
+      Script: {instanceID: 33170}
+    - Class: 114
+      Script: {instanceID: 33486}
+    - Class: 114
+      Script: {instanceID: 33488}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RealEstateTycoon-Gamekit/Scenes/Menu-c#.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 28058}
+    - Class: 114
+      Script: {instanceID: 29490}
+    - Class: 114
+      Script: {instanceID: 29822}
+    - Class: 114
+      Script: {instanceID: 30268}
+    - Class: 114
+      Script: {instanceID: 30550}
+    - Class: 114
+      Script: {instanceID: 31096}
+    - Class: 114
+      Script: {instanceID: 32032}
+    - Class: 114
+      Script: {instanceID: 32750}
+    - Class: 114
+      Script: {instanceID: 32754}
+    - Class: 114
+      Script: {instanceID: 33486}
+    - Class: 114
+      Script: {instanceID: 33488}
+    - Class: 114
+      Script: {instanceID: 34340}
+    - Class: 114
+      Script: {instanceID: 34590}
+    - Class: 114
+      Script: {instanceID: 35120}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: aa3a96c60ff31971a2affda21985b485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCarControl
+  - hash:
+      serializedVersion: 2
+      Hash: b946d6029d88a4e5902a80d68447a201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: ClipPlayerUI
+  - hash:
+      serializedVersion: 2
+      Hash: c1058004017c4d95e55a1c77d955e000
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a9d9d285d996b592f1ccf674fa017099
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: a8f8137dbb1297feec75e075c7118fb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CareerMapManager
+  - hash:
+      serializedVersion: 2
+      Hash: 719a1390f9eb856966a1aaab72041631
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a506b72c53f139c380ebe7f3581a434b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: da05abcc878171591b25804eef377360
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: d5dbba1e095217e88ae7faf82e4e2dbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71c0ba6c577b5d1320ccac537ce9e9da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogUI
+  - hash:
+      serializedVersion: 2
+      Hash: b6919327bcca55e4e56b20b361fa8ee4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 40f1d61053fd46ebc6a06083fc0eafc0
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5609918a60ea832f95015e31aebd9763
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa816c50468f5a62b86c6af4a4efaf1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DGameView
+  - hash:
+      serializedVersion: 2
+      Hash: ca8d1f2b366557405dfd64a7051d5715
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemMover
+  - hash:
+      serializedVersion: 2
+      Hash: 4763159aa2d72ed796c2398564a4d18d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9605a0475669ece0189f675c4d408e5f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 60e44f63b02996de8be88704177fb59f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Gif
+  - hash:
+      serializedVersion: 2
+      Hash: 53094487dc1668e88601b408ef99eb93
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 15f336ff9b8646256be9933e64dcfb92
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51be24ae454491cbfe52c2963fbe76d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HouseController
+  - hash:
+      serializedVersion: 2
+      Hash: baf218a9799098962f3ddb5d79364282
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1ca2b5e4b4a944c49675ecc44d136e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b8c62e6fbbd49b0adf47ca1dfd4b7754
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 911bf880b561c86e312ac951c5fc622a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Advertising
+  - hash:
+      serializedVersion: 2
+      Hash: 3a74ff97f36cb7570e57460d53dcf9c2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ef2a760dc8c0bb333363120518871762
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 46f8815aaefa696d509049c348ad6805
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c3220f7afd647b11dae09800190b3898
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a152f4bbfcc1c203222264e9469e6cd6
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 201b3e41302e8bd8463c6af1573b2adb
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6554088abf80322f19a20856543c0003
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 48c3b9ad12f9261a970194cd1c316a5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiFloatValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 49cc5c0157c7c1c5a2fc1ad9ff9f8d3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3632937d58e47b256c6c90c1fb55119
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 84c295144a2fce36bf4afcb7fb81265f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: df6eab954ec864d23f72bf3587a64b76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9e8898d1705d409ec4c988108072c8af
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 68d5dec1c60c68c2dfc1f02723e0b735
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: bcb9b7a93c09c207eb313c02affe0d60
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 7dc306a2cc219b2d110c03ca5b52f3d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogToggleSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: d60ac793c0ae54ed379a5ba110d1298e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Notifications
+  - hash:
+      serializedVersion: 2
+      Hash: a401d62e0a7b4e119d20fb7f6723eba8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ac0995427965ff4d5e37afde8449a2d7
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c5ab079dbc06dd660a4f3f0f25c099e
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ed2094e12f032ec673dcde8d41537bd5
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: AppStateEventClient
+  - hash:
+      serializedVersion: 2
+      Hash: df356894f021f8fa9b65818185a6de20
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: MobileAdsEventExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 01d00c570137425abd9f1d9d0bf055bd
+    assemblyName: Unity.Recorder.dll
+    namespaceName: UnityEngine.Recorder
+    className: RecorderBindings
+  - hash:
+      serializedVersion: 2
+      Hash: d724b6e49da746e4fd6dfdcd6b0798ec
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7411ab774cad496214852cebd42767b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: ClipPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: efc0eec3394745dc8e922dce1dde7bc7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ColorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4a3351e209ecf0eff6ab268e49d7f341
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8165edc0ea71078aadd02b6c3ce945a1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: e767c4aa5ddc7228b6ca83da9aa0fba2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 81bb2f606fceb858467b5a01d57faa6e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b239309bf0714ca1f7d8c08e665b5e21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Recorder
+  - hash:
+      serializedVersion: 2
+      Hash: 411a04d1ee8748824e224a553948367e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6722a1c700187bccc96978429dd86c24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Giphy
+  - hash:
+      serializedVersion: 2
+      Hash: f8b223f640cb8dc146d2777cc21877e2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 61047772b625d3ed2da2c3aeb6d38d01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: StringStringCollectionView
+  - hash:
+      serializedVersion: 2
+      Hash: 68587ea39bb503ea8d65053e93c31d06
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ad5e83cc610c4f20407738fe45db2b48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuAdmob
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9e07bb8536f382c86a0ef0c58f5e7f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 137ef6deaa998b765b3e260c7a74125f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: InAppPurchasing
+  - hash:
+      serializedVersion: 2
+      Hash: 0531d5fbddefc8de09b7b2699d523ee8
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: d4409d4e363430bcacf643b98b2ae87a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NativeUIDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 59a3597e8b443837c9d7e56154cecead
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21a2f27dd3919edd4c3629f60c74c481
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: textFx
+  - hash:
+      serializedVersion: 2
+      Hash: 3347f36899bbfa0115b0af10e71e1833
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GifDemo
+  - hash:
+      serializedVersion: 2
+      Hash: bd4016a2045f75e945497f07c5b80503
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f87a82bdc1582c5f70b70ca85233d7f2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 25175482fed457aefaa606f174fd5c23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NotificationsDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 57d70f0173aa70a6e586a45b7e907ce5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AdvertisingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 65784ab5ae832e00230735e19000957b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b309f0b8b517f50a2601fbb7a2f9f705
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 769abea9aa79f49a2ee1a4facd0a61d5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6f177e04c4017fb449aa52892e8d5343
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiPointerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: d7bd913ee74a4cad73a7c048d9783cd3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: afeea59d48374f214e49a704022182d2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: cc77c128f5d3ceb741d60c37d25da12d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: d304357c568677723920058c10c526da
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: a569de5750001cbc8809839e6f8eb1c5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 04dd76c4ac74b880528169cf0356684d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: fd53930626f915889c5e8a34e398e181
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: e5f6836e066ba853b9bd52f610384db5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 8c6d361586252f724d6309217e4bf2f6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 26519fbd76e26e4ae344c09f434c5dde
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 51a78fb233efeeac2e3eeb54c6d430f8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0a7232f848c0517a97655a741aaf98
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: b0721ffb6786be5bda1e3e42f8a94c9f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 268e3ecd29ffa3103ef6d3b31993dc08
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a688d4910b568c700f2cfaab9dbe0f1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 24ff340fd69203d92f5cdeb93eb83756
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 512cfe8fb2a99809ca564e53c02f272a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f356687427962653d00a37e1a8e0bba4
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: d634a3670a96387e1e0f9b7235b24e69
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: c31c9f6c8070bc6d1c4d3147fde24daa
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 958df85fb7c6a10e3837d24c3b5ceee1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 40a85efecac423f7e75ae8394e206431
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c1d0e87530046850d2b62a2b8fea4a8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 30059e5d2e39fbbedffe9abc082b75a5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: ff088d0d5406d4c484c2bb89b67f98cd
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 17af806ce413bed7c12f117102f7e53a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: ed45b3026393661c73952c22964ec74f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: e38ca3f2c56ca95f09a3e32f6671e5b0
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 348693f67756bffbed71b0dd55cb27a9
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: e3f0481483752423846499330a0abfd1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: bf6fb122c1400960be42812ba9018683
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo
+  - hash:
+      serializedVersion: 2
+      Hash: a1d49796c8aa8d588b23e093c638e36d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerCanvasRaycastFilterProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 5d1b5a5aafd0c5cb3dc14985dc978d55
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3c3e5980c88a14a86741564a7fd08aaa
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6672c75c1110d2ecfda2d8cc618311f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: globalGameController
+  - hash:
+      serializedVersion: 2
+      Hash: afeea59d48374f214e49a704022182d2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: cc77c128f5d3ceb741d60c37d25da12d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: d304357c568677723920058c10c526da
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: a569de5750001cbc8809839e6f8eb1c5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 04dd76c4ac74b880528169cf0356684d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: fd53930626f915889c5e8a34e398e181
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: e5f6836e066ba853b9bd52f610384db5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 8c6d361586252f724d6309217e4bf2f6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 26519fbd76e26e4ae344c09f434c5dde
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 51a78fb233efeeac2e3eeb54c6d430f8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0a7232f848c0517a97655a741aaf98
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: 268e3ecd29ffa3103ef6d3b31993dc08
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a688d4910b568c700f2cfaab9dbe0f1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 24ff340fd69203d92f5cdeb93eb83756
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 512cfe8fb2a99809ca564e53c02f272a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f356687427962653d00a37e1a8e0bba4
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: d634a3670a96387e1e0f9b7235b24e69
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: c31c9f6c8070bc6d1c4d3147fde24daa
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 958df85fb7c6a10e3837d24c3b5ceee1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 40a85efecac423f7e75ae8394e206431
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c1d0e87530046850d2b62a2b8fea4a8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 30059e5d2e39fbbedffe9abc082b75a5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: ff088d0d5406d4c484c2bb89b67f98cd
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 17af806ce413bed7c12f117102f7e53a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: ed45b3026393661c73952c22964ec74f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: e38ca3f2c56ca95f09a3e32f6671e5b0
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 348693f67756bffbed71b0dd55cb27a9
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: e3f0481483752423846499330a0abfd1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: d28b52a863ba5e1504776a993e061dd2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e93e17b66f194f6fdc59adbf2e96c9c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: StoreReview
+  - hash:
+      serializedVersion: 2
+      Hash: 1345982a2f3ced5df17b0bc7d44d4a55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Notifications
+    className: iOSNotificationListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2bd783b5b85429caff317fd8ece19300
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: b5bf0495dc1eda86bf8687b176129edd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: UtilitiesDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 41d2a9aa275ac1ba5b99378e028701e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogClickableText
+  - hash:
+      serializedVersion: 2
+      Hash: 973b3849d8e2328d2a067e23562a4462
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DemoHomeController
+  - hash:
+      serializedVersion: 2
+      Hash: 59291069e057ac03644c16463101b1af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiDropEvent
+  - hash:
+      serializedVersion: 2
+      Hash: a856d726fc1219723b815de1e63001b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: SharingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 1824a9130d49df16abbf95d88546f25c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21f4f1fec12583058b4c5843abeefdbb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 6a9516770b070951680a95390b9098a5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b223400e49bf6c0f885a2efb5955c3b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: MediaResultView
+  - hash:
+      serializedVersion: 2
+      Hash: 89003befdf0a1cfbd8100c7759ff3201
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 6fea02e0a8b3cb3b15440b3ff3fce29b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 621258cbf131e999213abbde65c03985
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dde699be835e72a9b503701c95486c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawPathsInEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 03116c959005bf565efe4a31f8be265e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b20bb37fe547a38e67e865c7074ed8f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: cb0af9d821296cd6914b3b57ceb35dac
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1653b96a371d7f9c2691892f0b29e1c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 61a30f78703578ca8acfd622c58dc1fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ScrollableListItem
+  - hash:
+      serializedVersion: 2
+      Hash: 76b17bf564fa9f8bd6ab3d1e431f9667
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b36c4dc30888b3c5b588f5deae83fafa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: PrivacyDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed9e421d17369f1952e18cc1edadbcb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: cd426e62b2596b6e3a9bf8d3c50feeab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiVector2ValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: f0fabc534ebad0c126ac455f6eece11c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiDragEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 7219ebb0b4a64fd19236e423b34046f6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 73e414d9bade6fd6f045aa054ca8a856
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d74fd78d2512e03cd84df1f86f08508
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DigitalClock
+  - hash:
+      serializedVersion: 2
+      Hash: 6d1ca98bad1cb30a274f79776b279843
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3e34349ccd70d22e2ca5ce2b716d041e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InitManager
+  - hash:
+      serializedVersion: 2
+      Hash: afeea59d48374f214e49a704022182d2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: cc77c128f5d3ceb741d60c37d25da12d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: d304357c568677723920058c10c526da
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: a569de5750001cbc8809839e6f8eb1c5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 04dd76c4ac74b880528169cf0356684d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: fd53930626f915889c5e8a34e398e181
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: e5f6836e066ba853b9bd52f610384db5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 8c6d361586252f724d6309217e4bf2f6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 26519fbd76e26e4ae344c09f434c5dde
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 51a78fb233efeeac2e3eeb54c6d430f8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0a7232f848c0517a97655a741aaf98
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: b0721ffb6786be5bda1e3e42f8a94c9f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 268e3ecd29ffa3103ef6d3b31993dc08
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a688d4910b568c700f2cfaab9dbe0f1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 24ff340fd69203d92f5cdeb93eb83756
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 512cfe8fb2a99809ca564e53c02f272a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f356687427962653d00a37e1a8e0bba4
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: d634a3670a96387e1e0f9b7235b24e69
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: c31c9f6c8070bc6d1c4d3147fde24daa
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 958df85fb7c6a10e3837d24c3b5ceee1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 40a85efecac423f7e75ae8394e206431
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c1d0e87530046850d2b62a2b8fea4a8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 30059e5d2e39fbbedffe9abc082b75a5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: ff088d0d5406d4c484c2bb89b67f98cd
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 17af806ce413bed7c12f117102f7e53a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: ed45b3026393661c73952c22964ec74f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: e38ca3f2c56ca95f09a3e32f6671e5b0
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 348693f67756bffbed71b0dd55cb27a9
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: e3f0481483752423846499330a0abfd1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 7b8998201f772846481d3ecb82d57e64
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ContactView
+  - hash:
+      serializedVersion: 2
+      Hash: 999c449ad95117c75b6263e062d2e58e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 00772c2e501491e3584a0eea65958c5a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 2d03b8ce630f57cc7f5f2c763d4ed1a1
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 78fa8c70bef8c6d96ce76e6d539a1987
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3d860abc344bfbd5a594aa55314fb635
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 92372a09b8820152a62a98e5731a90e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: EM_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: f3af0e0f637016253c40351a71eac6ba
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 480e2a56c81cbe122ffc7c3fe7336a07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e0c3d0abc80b8a89b2629db6b761b38c
+    assemblyName: GoogleMobileAds.Editor.dll
+    namespaceName: GoogleMobileAds.Editor
+    className: GoogleMobileAdsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e688ed407bbfb11c21058187316ed44e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 91442155f774af947c5898def7b21c48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_Multiplayer_RealtimeKitchenSink
+  - hash:
+      serializedVersion: 2
+      Hash: 10b44983f0a7578909bb4d68fa771902
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: f499c46cfbe00869f0cf3c60079ed2b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiIntValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 9efc8c65b86b5c1022ed3efd7ac004a8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b46a27dc8fe542927657974694fc29aa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 2380288dfe403a7f4b2182b575687cb8
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7283d7517057dea3e1257e97fd0e6f36
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e78f6985cfa9077afa7bb6c3ee81529f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0ed139c5d27146564488f5fe269408
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuBGMover
+  - hash:
+      serializedVersion: 2
+      Hash: 2d9db4bcc40e45eadca6d1992d366fa4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiEndEditEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 2d957d33afa5072080a40c9c783eb96c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5d2eca6f6cfbab49b6fa5ee0d302f2f0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ac11f4027945e0815dbad769ce10fce0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ColorChooser
+  - hash:
+      serializedVersion: 2
+      Hash: ce29c624b4e215f90c5fc5df651c5363
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9e29667a89e02241a5acac926156e2f2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0c8b499f64b686c0ec50f43e94d3af
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 6812d5c5d9491ac16ab81eeb982f7f0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: globalTouchManager
+  - hash:
+      serializedVersion: 2
+      Hash: 379d154b7521e05479d90ff66db0e938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixPositionOnAllResolutions
+  - hash:
+      serializedVersion: 2
+      Hash: 8de12aca8b8cb30fa29dfedb5a701e0e
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1dea6fb9749cd41e97adf28107bad4b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: MediaDemo
+  - hash:
+      serializedVersion: 2
+      Hash: e7e7f4dfc32ad7282bba8c7f984ab185
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AddedStringStringView
+  - hash:
+      serializedVersion: 2
+      Hash: a87600996252d340139cc5e88be701c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: AppLifecycleManager
+  - hash:
+      serializedVersion: 2
+      Hash: e7d28adae8f8a20d20a3fc3613806c6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_SavedGames
+  - hash:
+      serializedVersion: 2
+      Hash: 7bcb35908a60cac26edee0ff51816ada
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: ff81b4e16d0dcd864a3b1c31957dcc15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCarInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a6fc42a9aa31ccfba3cd648961c3441b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CareerLevelSetup
+  - hash:
+      serializedVersion: 2
+      Hash: df288e72e562f52a81d4aa1653f3d72b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCameraControl
+  - hash:
+      serializedVersion: 2
+      Hash: 02adb5eda9dedad6cfce2b87b2c9e75f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: 206a5c9d773ef22bc5ed2f451cd7ffbf
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 59ef3f8f57d6da76672c7c16ae171e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: GameServices
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab78f031b53dd5d55f964f3cd1c223e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: a8cf287d41bd7dd252d416f51c0da906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal
+    className: RuntimeHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 7d837e01e0d1ecae541347d570946e5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiBoolValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ed034cff83e1d608e66691a37102630c
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1b5081cd31a4ef4bf34d61b392ebabd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: LoadingPanelController
+  - hash:
+      serializedVersion: 2
+      Hash: ab83fa9209b73d94dbec301001db7690
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9690f760294698c29b1bee7d9b7bd452
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a273edb1f10a7eafb870721bc4bddaca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffacc03a651624ad5bb72bc787275f7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ceb4961d39f347996fda1404ac174d05
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6691dd18200d133e8dbae24b6281d1cf
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 61429f6d43d92a7e1233184695f0229b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_Multiplayer_TurnbasedKitchenSink
+  - hash:
+      serializedVersion: 2
+      Hash: 33351225ad07d388c6f33d76ccfe9ba6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f1ba3939edcf4406dbb90ccb6e292259
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: afeea59d48374f214e49a704022182d2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: cc77c128f5d3ceb741d60c37d25da12d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: d304357c568677723920058c10c526da
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: a569de5750001cbc8809839e6f8eb1c5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 04dd76c4ac74b880528169cf0356684d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: fd53930626f915889c5e8a34e398e181
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: e5f6836e066ba853b9bd52f610384db5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 8c6d361586252f724d6309217e4bf2f6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 26519fbd76e26e4ae344c09f434c5dde
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 51a78fb233efeeac2e3eeb54c6d430f8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0a7232f848c0517a97655a741aaf98
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: b0721ffb6786be5bda1e3e42f8a94c9f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 268e3ecd29ffa3103ef6d3b31993dc08
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a688d4910b568c700f2cfaab9dbe0f1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 24ff340fd69203d92f5cdeb93eb83756
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 512cfe8fb2a99809ca564e53c02f272a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f356687427962653d00a37e1a8e0bba4
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: d634a3670a96387e1e0f9b7235b24e69
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: c31c9f6c8070bc6d1c4d3147fde24daa
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 958df85fb7c6a10e3837d24c3b5ceee1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 40a85efecac423f7e75ae8394e206431
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c1d0e87530046850d2b62a2b8fea4a8
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 30059e5d2e39fbbedffe9abc082b75a5
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: ff088d0d5406d4c484c2bb89b67f98cd
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 17af806ce413bed7c12f117102f7e53a
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: ed45b3026393661c73952c22964ec74f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: e38ca3f2c56ca95f09a3e32f6671e5b0
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 348693f67756bffbed71b0dd55cb27a9
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: e3f0481483752423846499330a0abfd1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: c775193bec472a91767f76dccfe603e7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5d04a23d7ad272dc7905d8fa0d3ae5
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 678e1b1d2ead89a22d454421d06258e4
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 60848472e362199ae5eac55c8892dcbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 098e616fddf2c530f28257c2c39f270b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 09a274855c91c0cbabd2986cd5019f82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeartBeatAnimationEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 466329aa1430edd5d9cc35262ee17096
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f9786a3dca6228a6818ec4a0134d9212
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 805c62fb3df38a31dfa854c4f1d54dfa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 64f0823684ec17d93d2081357759672c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogToggleUI
+  - hash:
+      serializedVersion: 2
+      Hash: c05e73c4535140d8b52eabb410ae089c
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fe080edb42253ff47e3e338b21fe9f9e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3348da86cf282defebd8e594c0ff2917
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ScrollableList
+  - hash:
+      serializedVersion: 2
+      Hash: dc15cdcfcce97f93a72c051990a267d3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 03537dd42b6fc73a601799c77ceb0b9c
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 453c286dc9c9c693626ccfeab876ea44
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 644007494bc8f11f96cb3d9910dc3bce
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 74101b1189e7f911aef3b5ca95b2db19
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 07f8e08a6f0125c4988ce99be161ffc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NotificationHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 55ac714ecd14f17465c0e21a680e5b69
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0480aedcc4d343b2be63b4a40ebea277
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AlertPopup
+  - hash:
+      serializedVersion: 2
+      Hash: e14dcf7af3981900fd7ccc998d6e0e85
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53a5fe304ec5f5d467f7172e31f3f986
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiClickEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff76b7a82b2b0fd6d84eed67370a649
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a1926869a1b71ceb204692733af622c6
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3f253b162505cbcde1a0618de5dfd35d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackButton
+  - hash:
+      serializedVersion: 2
+      Hash: d51b85fdef5396bcdbdb2452443de552
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: TicTacToeGameView
+  - hash:
+      serializedVersion: 2
+      Hash: 7d058425dfd4d06ddec4be7a4bb72067
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9a892a8a59574894e4dfcc95e537835f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 859333885587342035ff75ae28f9d734
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 227479bd62346e4ec94436066e4f660a
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: f161fdc928c14f26463db2fa501f5e43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DemoUtils
+  - hash:
+      serializedVersion: 2
+      Hash: 9141da52667d5b03d4f12036ebce4d0f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cd5e4b671a6f3e47fe319d5913a5513e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 41d4682f02a800b79271943091caa253
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: NativeConsentDialogListener
+  - hash:
+      serializedVersion: 2
+      Hash: 23c266b40a96751f98f92dd21ee9b3b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PathManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6a655eb1bef7a8a26a70bd5255f6fe31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: InAppPurchasingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 066eb7f1bfb35c224a4b60d246fce443
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: TicTacToeGameControl
+  - hash:
+      serializedVersion: 2
+      Hash: 945a5b9baf029e80b67febb22396a188
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogButtonUI
+  - hash:
+      serializedVersion: 2
+      Hash: af3c7bb5f1a72685c8bff2aeb7ca8d1b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5c76b6826c5a42f322ba10c4da3fc50b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2a1618af3cf6183b2385d416626c759a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 829a3f3825b2b9d72365ef92d8177711
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8c8a68e441b18828b2ab8f7b699d611d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DGameControl
+  - hash:
+      serializedVersion: 2
+      Hash: b415241e1d7157cf6344dfedabf6b07c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ContactDemo
+  - hash:
+      serializedVersion: 2
+      Hash: c5495cef5472c394a7d823d1315ba01d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 9
+  scenePathNames:
+  - Assets/RealEstateTycoon-Gamekit/Scenes/Init.unity
+  - Assets/RealEstateTycoon-Gamekit/Scenes/Menu-c#.unity
+  - Assets/RealEstateTycoon-Gamekit/Scenes/CareerMap-c#.unity
+  - Assets/RealEstateTycoon-Gamekit/Scenes/Game-c#.unity
+  playerPath: /Users/everjayadi/Documents/Real Estate/untitled folder
